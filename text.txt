@@ -1,0 +1,10 @@
+Bonjour, Monde !
+Ceci est un fichier de test pour get_next_line.
+Il contient plusieurs lignes de texte.
+Certaines lignes sont courtes.
+D’autres sont un peu plus longues, comme celle-ci, qui est censée tester la capacité de gestion du tampon de votre fonction.
+Voici une ligne qui ne se termine pas par une nouvelle ligne
+
+Voici une ligne vide ci-dessus.
+Et une ligne de plus ici.
+Fin du fichier.
