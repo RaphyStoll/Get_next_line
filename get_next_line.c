@@ -55,6 +55,7 @@ void	read_and_stash(int fd, t_list **stash)
 		if ((*stash == NULL && readed == 0) || readed == -1)
 		{
 			free(buf);
+			clean_stash(stash);
 			return ;
 		}
 		buf[readed] = '\0';
