@@ -1,26 +1,17 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   get_next_line.c                                    :+:      :+:    :+:   */
+/*   get_next_line_bonus.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: raphaelferreira <raphaelferreira@studen    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/10/10 22:55:03 by raphaelferr       #+#    #+#             */
-/*   Updated: 2024/10/11 12:09:18 by raphaelferr      ###   ########.fr       */
+/*   Created: 2024/10/11 00:53:29 by raphaelferr       #+#    #+#             */
+/*   Updated: 2024/10/11 00:53:44 by raphaelferr      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
-/**
-*@brief
-** supprime un noeud de la liste chainee
-*@param current represente le noeud actuel
-*@param previous represente le noeud precedent
-*@param head represente le debut de la liste chainee
-*@param fd represente le file descriptor
-*@return 
-*$ void
-*/
+#include "get_next_line_bonus.h"
+
 void	remove_fd_node(t_gnl **head, int fd)
 {
 	t_gnl	*current;
@@ -48,14 +39,6 @@ void	remove_fd_node(t_gnl **head, int fd)
 	}
 }
 
-/**
-*@brief
-** lit et extrait une ligne
-*@param bytes_read represente le nombre de byte lu
-*@param temp represente la chaine de caractere temporaire
-*@return
-*$ retourne la ligne lu ou NULL si erreur ou rien a lire
-*/
 char	*read_and_extract_line(t_gnl *node, char *buffer)
 {
 	ssize_t	bytes_read;
@@ -81,15 +64,7 @@ char	*read_and_extract_line(t_gnl *node, char *buffer)
 		node->remainder = temp;
 	}
 }
-/**
-*@brief
-** en bref max 3 ligne
-*@param node le noeud actuel
-*@param buffer la chain de caractere lu
 
-*@return
-*$ que return la fonction
-*/
 char	*extract_line(t_gnl *node)
 {
 	char	*newline_pos;
