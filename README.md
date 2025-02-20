@@ -6,7 +6,7 @@
   </button>
 </a>
 &nbsp;&nbsp;
-<a href="https://github.com/RaphyStoll/Get_next_line/README.eng.md" style="text-decoration:none;">
+<a href="https://github.com/RaphyStoll/Get_next_line/blob/main/README.eng.md" style="text-decoration:none;">
   <button style="border:none; cursor:pointer;">
     🇬🇧 English
   </button>
