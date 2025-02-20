@@ -1,3 +1,0 @@
-Ligne 1
-Ligne 2
-Dernière ligne sans saut de ligne à la fin

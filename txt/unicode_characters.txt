@@ -1,1 +1,0 @@
-Ligne avec des caractères Unicode : é, è, à, ç, û, ö, ü\n

@@ -1,1 +1,0 @@
-Ligne avec un caractère nul au milieu \0 ici

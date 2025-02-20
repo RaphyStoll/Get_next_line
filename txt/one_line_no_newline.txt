@@ -1,1 +1,0 @@
-Ceci est une ligne sans saut de ligne à la fin
