@@ -2,14 +2,14 @@
 
 # GetNextLine Project
 
-<a href="[#french-version](https://github.com/RaphyStoll/Get_next_line/README.md)" style="text-decoration:none;">
-  <button style="border:none; cursor:pointer;">
+<a href="https://github.com/RaphyStoll/Get_next_line/blob/main/README.md" style="text-decoration:none;">
+  <button style="background-color:#e0f7fa; border:none; cursor:pointer;">
     🇫🇷 Français
   </button>
 </a>
 &nbsp;&nbsp;
-<a href="[#english-version](https://github.com/RaphyStoll/Get_next_line/README.eng.md)" style="text-decoration:none;">
-  <button style="background-color:#e0f7fa; border:none; cursor:pointer;">
+<a href="https://github.com/RaphyStoll/Get_next_line/blob/main/README.eng.md" style="text-decoration:none;">
+  <button style="border:none; cursor:pointer;">
     🇬🇧 English
   </button>
 </a>
