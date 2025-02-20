@@ -1,0 +1,1 @@
+Ligne avec des caractères non imprimables : \x01\x02\x03\n
